@@ -251,3 +251,59 @@ footer {
   }
   
 }
+.contact {
+  background-image: url('https://images.unsplash.com/photo-1521747116042-5a810fda9664?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWJzdHJhY3QlMjBwcm9mZXNzaW9uYWx8ZW58MHx8MHx8&ixlib=rb-1.2.1&q=80&w=1080'); 
+  padding: 40px 40px; /* Padding around the section */
+  text-align: center; /* Center-align text */
+  border-radius: 8px; /* Rounded corners */
+  margin: 20px 0; /* Margin above and below the section */
+}
+
+.contact h2 {
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 20px; /* Space below the heading */
+}
+
+.contact p {
+  margin-bottom: 20px; /* Space below the paragraph */
+  color: #555; /* Darker text color for readability */
+}
+
+.contact form {
+  max-width: 600px; /* Maximum width for the form */
+  margin: 0 auto; /* Center the form */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+}
+
+.contact label {
+  margin-bottom: 5px; /* Space below labels */
+   color: #000000;
+  font-weight: bold; /* Bold labels */
+  font-size: 1em;
+}
+
+.contact input,
+.contact textarea {
+  padding: 10px; /* Padding inside input fields */
+  margin-bottom: 15px; /* Space below fields */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners for inputs */
+  font-size: 1em; /* Consistent font size */
+}
+
+.contact button {
+  background-color: #00d1b2; /* Button color */
+  color: #fff; /* Text color for button */
+  padding: 10px 15px; /* Padding inside the button */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1em; /* Consistent font size */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.contact button:hover {
+  background-color: #009e8c; /* Darker button color on hover */
+}
+

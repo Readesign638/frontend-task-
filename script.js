@@ -31,8 +31,15 @@ scrollToTopBtn.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
 });
 
-document.getElementById("registrationForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent form submission
-    validateForm();
+// Contact Form Submission
+document.getElementById('contactForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    this.style.display = 'none'; // Hide the form
+    document.getElementById('thankYouMessage').style.display = 'block'; // Show thank you message
 });
 
+// Registration Form Submission (if applicable)
+document.getElementById("registrationForm")?.addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevent form submission
+    validateForm(); // Call your validation function here
+});
